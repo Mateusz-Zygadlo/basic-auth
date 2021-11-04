@@ -1,0 +1,29 @@
+{
+  "name": "basic-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "devstart": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateusz-Zygadlo/basic-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateusz-Zygadlo/basic-auth/issues"
+  },
+  "homepage": "https://github.com/Mateusz-Zygadlo/basic-auth#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0"
+  }
+}
